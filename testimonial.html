@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>420Film</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="icon" type="image/x-icon" href="/images/Screenshot 2024-04-16 215028.jpg">
+
+
+  <!-- Custom styles for this template -->
+  <link href=" css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a class="" href="index.html">Home </a>
+                  <a class="" href="about.html">About </a>
+                  <a class="" href="gallery.html">Services </a>
+                  <!-- <a class="" href="blog.html">Blog </a> -->
+                  <a class="" href="testimonial.html">Contact <span class="sr-only">(current)</span></a>
+                </div>
+              </div>
+            </div>
+            <a class="navbar-brand" href="index.html">
+              <span>
+                420Films
+              </span>
+            </a>
+
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- Start contact Area -->
+    <section id="contact" class="contact">
+      <div id="contact" class="contact-area " style="margin-top: 20px;">
+        <div class="contact-inner area-padding">
+          <div class="contact-overly"></div>
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                  <h2>Contact us</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start contact icon column -->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="fa fa-mobile"></i>
+                    <p><a style="color: white;" href="tel:8547235233">+91 8547235233</a>
+                      <!-- <span>Web: www.example.com</span> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Start contact icon column -->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="fa fa-envelope-o"></i>
+                    <p><a style="color: white;" href="mailto:420filmproductions@gmail.com">
+                        420filmproductions@gmail.com</a>
+                      <!-- <span>Web: www.example.com</span> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Start contact icon column -->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Kochi,
+                      Kerala, India.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+
+              <!-- Start Google Map -->
+              <div class="col-md-6 col-sm-6 col-xs-12 mapbord">
+                <!-- Start Map -->
+
+
+             
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3929.14595937086!2d76.50992507503119!3d10.004799990100864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAwJzE3LjMiTiA3NsKwMzAnNDUuMCJF!5e0!3m2!1sen!2sin!4v1713286801637!5m2!1sen!2sin"
+                  width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- End Map -->
+              </div>
+              <!-- End Google Map -->
+
+              <!-- Start  contact -->
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="form contact-form">
+                  <div id="sendmessage">Your message has been sent. Thank you!</div>
+                  <div id="errormessage"></div>
+                  <form action="" method="post" role="form" class="contactForm" name="contact-form">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                        data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                        data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" rows="5" data-rule="required"
+                        data-msg="Please write something for us" placeholder="Message"></textarea>
+                      <div class="validation"></div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                  </form>
+                </div>
+              </div>
+              <!-- End Left contact -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Area -->
+
+
+
+    <!-- info section -->
+
+    <section class="info_section" style="margin-top: 20px;">
+      <div class="info_container layout_padding-top">
+        <div class="container">
+          <div class="heading_container">
+            <h2>
+              Contact Us
+            </h2>
+          </div>
+          <div class="info_main">
+            <div class="row">
+              <div class="col-md-4 col-lg-3">
+                <div class="info_contact ">
+                  <a href="https://www.google.com/maps/place/10%C2%B000'17.3%22N+76%C2%B030'45.0%22E/@10.0048,76.5099251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.0048!4d76.5125?entry=ttu"
+                    class="link-box">
+                    <div class="img-box">
+                      <img src="images/location.png" alt="" />
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        Kochi,
+                        Kerala, India.
+                      </h6>
+                    </div>
+                  </a>
+                  <a href="mailto:420filmproductions@gmail.com" class="link-box">
+                    <div class="img-box">
+                      <img src="images/mail.png" alt="" />
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        420filmproductions@gmail.com
+                      </h6>
+                    </div>
+                  </a>
+                  <a href="tel:8547235233" class="link-box">
+                    <div class="img-box">
+                      <img src="images/call.png" alt="" />
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        Call +91 8547235233
+                      </h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-2 col-lg-3">
+                <div class="info_link-box">
+                  <ul>
+                    <li class=" ">
+                      <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="">
+                      <a class="" href="about.html">About </a>
+                    </li>
+                    <li class="">
+                      <a class="" href="gallery.html">Services </a>
+                    </li>
+                    <!-- <li class="">
+                    <a class="" href="blog.html">Blog </a>
+                  </li> -->
+                    <li class="">
+                      <a class="" href="testimonial.html">Contact </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <div style="background-color: #d7d2b7" class="social_box">
+                  <a href="#">
+                    <img src="images/facebook.png" alt="https://www.facebook.com/profile.php?id=61557880764592" />
+                  </a>
+                  <a href="#">
+                    <img src="images/twitter.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="images/linkedin.png" alt="" />
+                  </a>
+                  <a href="https://www.instagram.com/the_420_films?igsh=MWpyeW43NXJhMGlxYw%3D%3D">
+                    <img src="images/instagram.png" alt="" />
+                  </a>
+                  <a href="https://www.youtube.com/@_420_Media_">
+                    <img src="images/youtube.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <footer class="footer_section ">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved by 420Films. Design by
+          <a href="https://acmeflare.in">Acmeflare</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
